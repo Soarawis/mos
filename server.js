@@ -8,7 +8,7 @@ app.use(express.json());
 
 // หน้าแรก
 app.get("/", (req, res) => {
-  res.send("API is running 🚀");
+  res.send("Soarawis Meethong No.20 DT26821N");
 });
 
 // API ทดสอบ
