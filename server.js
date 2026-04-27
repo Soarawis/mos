@@ -6,15 +6,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// หน้าแรก
-app.get("/", (req, res) => {
-  res.send("Soarawis Meethong No.20 DT26821N");
-});
 
-// API ทดสอบ
-app.get("/api/test", (req, res) => {
-  res.json({ message: "API ใช้งานได้" });
-});
+
+
 
 // สำคัญสำหรับ Railway
 const PORT = process.env.PORT || 3000;
